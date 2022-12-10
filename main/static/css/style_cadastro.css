@@ -1,0 +1,40 @@
+.table, .table-overflow {
+    max-height:400px;
+    overflow-y:auto;
+}
+tr{
+    margin: 10;
+}
+.btn{
+    float: right;
+    background-color:  rgb(182, 17, 17) !important;
+    border-color:  rgb(182, 17, 17)!important;
+    color: white !important;
+}
+#btnCad{
+    color: white !important;
+}
+main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div#formulario{
+    margin-bottom: 200px !important;
+    margin-top: 50px !important;
+}
+
+h1{
+    color:rgb(182, 17, 17) !important;
+}
+h2{
+    color: rgb(182, 17, 17) !important;
+    text-align: center;
+}

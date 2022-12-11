@@ -6,7 +6,7 @@ from main.models import Candidato
 def get_cadastros(request):
     if request.method == "POST":
 
-        form = CandidatoForm(request.POST) #Armazenando o formulário criado a uma lista
+        form = CandidatoForm(request.POST) 
         print(request.POST)
         if form.is_valid():
             
